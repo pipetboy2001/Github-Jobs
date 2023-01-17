@@ -1,0 +1,161 @@
+{
+    "jobs": [
+        {
+            "id": 1,
+            "title": "Software Engineer",
+            "company": "Google",
+            "location": "Mountain View, CA",
+            "zipCode": "94043",
+            "type": "part-time",
+            "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
+            "posted": "2022-12-01T12:00:00Z",
+            "description": "We are looking for a software engineer to join our team at Google. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
+            "apply": "https://careers.google.com/jobs/results/1337"
+        },
+        {
+            "id": 2,
+            "title": "Data Scientist",
+            "company": "Facebook",
+            "location": "Menlo Park, CA",
+            "zipCode": "94025",
+            "type": "full-time",
+            "logo": "https://www.facebook.com/images/fb_icon_325x325.png",
+            "posted": "2022-11-15T12:00:00Z",
+            "description": "We are seeking a data scientist to join our team at Facebook. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
+            "apply": "https://careers.facebook.com/jobs/results/1338"
+        },
+        {
+            "id": 3,
+            "title": "Software Engineer",
+            "company": "Amazon",
+            "location": "Seattle, WA",
+            "zipCode": "98101",
+            "type": "full-time",
+            "logo": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Gateway/US-EN_Hero_Desktop_Template_1500x600._CB432006202_.jpg",
+            "posted": "2022-11-01T12:00:00Z",
+            "description": "We are looking for a software engineer to join our team at Amazon. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
+            "apply": "https://www.amazon.jobs/en/jobs/1339/software-engineer"
+        },
+        {
+            "id": 4,
+            "title": "Data Scientist",
+            "company": "Microsoft",
+            "location": "Redmond, WA",
+            "zipCode": "98052",
+            "type": "full-time",
+            "logo": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/Microsoft_Research_logo_rgb_C-01-1.png",
+            "posted": "2022-10-15T12:00:00Z",
+            "description": "We are seeking a data scientist to join our team at Microsoft. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
+            "apply": "https://careers.microsoft.com/us/en/job/1340/Data-Scientist"
+        },
+        {
+            "id":5,
+            "title": "Software Engineer",
+            "company": "Apple",
+            "location": "Cupertino, CA",
+            "zipCode": "95014",
+            "type": "full-time",
+            "logo": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?201809210816",
+            "posted": "2022-10-01T12:00:00Z",
+            "description": "We are looking for a software engineer to join our team at Apple. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
+            "apply": "https://jobs.apple.com/en-us/details/1341/software-engineer"
+        },
+        {
+            "id":6,
+            "title": "Data Scientist",
+            "company": "Netflix",
+            "location": "Los Gatos, CA",
+            "zipCode": "95032",
+            "type": "full-time",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
+            "posted": "2022-09-15T12:00:00Z",
+            "description": "We are seeking a data scientist to join our team at Netflix. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
+            "apply": "https://jobs.netflix.com/jobs/1342"
+        },
+        {
+            "id":7,
+            "title": "Software Engineer",
+            "company": "Tesla", 
+            "location": "Palo Alto, CA",
+            "zipCode": "94301",
+            "type": "internship",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Tesla_Motors_logo.svg",
+            "posted": "2022-09-01T12:00:00Z",
+            "description": "We are looking for a software engineer to join our team at Tesla. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
+            "apply": "https://www.tesla.com/careers/search?location=1343"
+        },
+        {
+            "id":8,
+            "title": "Data Scientist",
+            "company": "Uber",
+            "location": "San Francisco, CA",
+            "zipCode": "94105",
+            "type": "full-time",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Uber_2018_logo.svg/1200px-Uber_2018_logo.svg.png",
+            "posted": "2022-08-15T12:00:00Z",
+            "description": "We are seeking a data scientist to join our team at Uber. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
+            "apply": "https://www.uber.com/us/en/careers/list/1344/"
+        },
+        {
+            "id":9,
+            "title": "Software Engineer",
+            "company": "Oracle",
+            "location": "Redwood City, CA",
+            "zipCode": "94065",
+            "type": "internship",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Oracle_logo_2011.svg/1200px-Oracle_logo_2011.svg.png",
+            "posted": "2022-08-01T12:00:00Z",
+            "description": "We are looking for a software engineer to join our team at Oracle. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
+            "apply": "https://www.oracle.com/corporate/careers/job-detail.html?jobid=1345"
+        },
+        {
+            "id":10,
+            "title": "Data Scientist",
+            "company": "Google",
+            "location": "Mountain View, CA",
+            "zipCode": "94043",
+            "type": "full-time",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
+            "posted": "2022-07-15T12:00:00Z",
+            "description": "We are seeking a data scientist to join our team at Google. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
+            "apply": "https://careers.google.com/jobs/results/1346-data-scientist/"
+        },
+        {
+            "id":11,
+            "title": "Software Engineer",
+            "company": "Facebook",
+            "location": "Menlo Park, CA",
+            "zipCode": "94025",
+            "type": "internship",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1200px-Facebook_icon.svg.png",
+            "posted": "2022-07-01T12:00:00Z",
+            "description": "We are looking for a software engineer to join our team at Facebook. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
+            "apply": "https://www.facebook.com/careers/jobs/a0I1I00000D1X1QUAV/"
+        },
+        {
+            "id":12,
+            "title": "Data Scientist",
+            "company": "Amazon",
+            "location": "Seattle, WA",
+            "zipCode": "98101",
+            "type": "full-time",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png",
+            "posted": "2022-06-15T12:00:00Z",
+            "description": "We are seeking a data scientist to join our team at Amazon. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
+            "apply": "https://www.amazon.jobs/en/jobs/1347/data-scientist"
+        },
+        {
+            "id":13,
+            "title": "Software Engineer",
+            "company": "Microsoft",
+            "location": "Redmond, WA",
+            "zipCode": "98052",
+            "type": "Part-time",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png",
+            "posted": "2022-06-01T12:00:00Z",   
+            "description": "We are looking for a software engineer to join our team at Microsoft. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
+            "apply": "https://careers.microsoft.com/us/en/job/1348/Software-Engineer"
+        }
+
+    ]
+}
