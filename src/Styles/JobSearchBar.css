@@ -1,0 +1,62 @@
+.background-container {
+    position: relative;
+}
+
+.background-img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: url(https://github.com/pipetboy2001/Github-Jobs/blob/main/src/Assest/backgroundImg.png?raw=true);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.Form {
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 10px;
+    display: flex;
+    background-color: #fff;
+    border-color: white;
+    
+}
+
+.Formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 20px;
+}

@@ -2,8 +2,10 @@ import React, { useState, useEffect } from 'react';
 import jobs from '../JSON/Data.json';
 import JobSearchBar from './JobSearchBar';
 import JobFilters from './JobFilters';
-import { Card, Row, Col, Image } from 'react-bootstrap';
+import { Card, Row, Col, Image , Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+
+import '../Styles/JobSearch.css'
 
 const JobSearch = () => {
     const [results, setResults] = useState(jobs.jobs);
@@ -31,25 +33,24 @@ const JobSearch = () => {
             <JobFilters setJobType={setJobType} setLocation={setLocation} />
 
             {results.map(job => (
-                <Card className="mb-3" style={{ maxWidth: '540px' }} key={job.id}>
+                <Card className="mb-3 card" style={{ maxWidth: '540px' }} key={job.id}>
                     <Row noGutters>
                         <Col md={4}>
                             <Image src={job.logo} className="card-img" alt={job.title} />
                         </Col>
                         <Col md={8}>
                             <Card.Body>
-                                <Card.Subtitle className="mb-2 text-muted">{job.company}</Card.Subtitle>
-                                <Card.Title>{job.title}</Card.Title>
+                                <Card.Subtitle className="mb-2 text-muted Company ">{job.company}</Card.Subtitle>
+                                <Card.Title className='Title'>{job.title}</Card.Title>
                                 <Card.Text>
-                                    <small className='text-muted'>{job.type}</small>
+                                    <Button className='ButtonJob'>
+                                        <small className='text-muted job'>{job.type}</small>    
+                                    </Button>
+                                    <div>
+                                        <small className='text-muted'>{job.location}</small>
+                                        <small className='text-muted'>{job.posted}</small>
+                                    </div>
                                 </Card.Text>
-                                <Card.Text>
-                                    <small className="text-muted">{job.location}</small>
-                                </Card.Text>
-                                {/* <Link to={`/job/${job.id}`} 
-                                    className="btn btn-primary">
-                                        View Job
-                                </Link> */}
                             </Card.Body>
                         </Col>
                     </Row>

@@ -1,0 +1,42 @@
+.card{
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 0.5;
+    padding: 0.5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 0.5s;
+}
+.card:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.card-img{
+    border-radius: 5px;
+    margin: 20%;
+}
+
+.Company{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #334680;
+}
+
+.Title{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #334680;
+}
+
+.ButtonJob{
+    background-color: #ffffff;
+    color: rgb(0, 15, 61);
+    border: 2px solid #334680;
+}
+
+.job{
+    color: rgb(0, 15, 61);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
