@@ -12,7 +12,9 @@ const JobSearchBar = ({ setSearchTerm }) => {
 
     return (
         <>
-            <h1 className='title'><b>Github</b> Jobs</h1>
+            <h1 className='title'>
+                <img src='../../public/github-mark.svg'></img>
+                <b>Github</b> Jobs</h1>
             <div className="background-container">
                 <img
                     src="https://github.com/pipetboy2001/Github-Jobs/blob/main/src/Assest/backgroundImg.png?raw=true"
