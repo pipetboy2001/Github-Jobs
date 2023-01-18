@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../Styles/JobFilters.css'
 
 const JobFilters = ({ setJobType, setLocation }) => {
     const [jobType, setLocalJobType] = useState('all');
@@ -16,21 +17,24 @@ const JobFilters = ({ setJobType, setLocation }) => {
     }
 
     return (
-        <div>
-            <label>
-                Job Type:
-                <select name="jobType" value={jobType} onChange={handleChange}>
+        <div className="Filters ">
+            <div className="form-group">
+                <label>Job Type:</label>
+                <select className="form-control" name="jobType" value={jobType} onChange={handleChange}>
                     <option value="all">All</option>
                     <option value="full-time">Full-time</option>
                     <option value="part-time">Part-time</option>
                     <option value="internship">Internship</option>
                 </select>
-            </label>
-            <label>
-                Location:
-                <input name="location" type="text" value={location} onChange={handleChange} />
-            </label>
+            </div>
+            <div className="form-group">
+                <label>Location:</label>
+                <input className="form-control" name="location" type="text" value={location} onChange={handleChange} />
+            </div>
         </div>
+
+
+
     );
 }
 

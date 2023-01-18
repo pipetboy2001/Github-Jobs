@@ -19,7 +19,8 @@ const JobSearch = () => {
             filteredJobs = filteredJobs.filter(job => job.title.toLowerCase().includes(searchTerm.toLowerCase()));
         }
         if (location) {
-            filteredJobs = filteredJobs.filter(job => job.location.toLowerCase().includes(location.toLowerCase()) || job.zipCode.toLowerCase().includes(location.toLowerCase()));
+            filteredJobs = filteredJobs.filter(job => job.location.toLowerCase().includes(location.toLowerCase()) 
+            || job.zipCode.toLowerCase().includes(location.toLowerCase()));
         }
         if (jobType !== 'all') {
             filteredJobs = filteredJobs.filter(job => job.type === jobType);
@@ -30,32 +31,43 @@ const JobSearch = () => {
     return (
         <div>
             <JobSearchBar setSearchTerm={setSearchTerm} />
-            <JobFilters setJobType={setJobType} setLocation={setLocation} />
+            
+            
+            
+            <div className="d-flex ">
+                
+                <JobFilters className='job-filters' setJobType={setJobType} setLocation={setLocation} />
+                <br/>
+                <div>
+                    {results.map(job => (
+                        <Card className="mb-3 card" style={{ maxWidth: '540px' }} key={job.id}>
+                            <Row noGutters>
+                                <Col md={4}>
+                                    <Image src={job.logo} className="card-img" alt={job.title} />
+                                </Col>
+                                <Col md={8}>
+                                    <Card.Body>
+                                        <Card.Subtitle className="mb-2 text-muted Company ">{job.company}</Card.Subtitle>
+                                        <Card.Title className='Title'>{job.title}</Card.Title>
+                                        <Card.Text>
+                                            <Button className='ButtonJob'>
+                                                <small className='text-muted job'>{job.type}</small>
+                                            </Button>
+                                            <div>
+                                                <small className='text-muted'>{job.location}</small>
+                                                <small className='text-muted'>{job.posted}</small>
+                                            </div>
+                                        </Card.Text>
+                                    </Card.Body>
+                                </Col>
+                            </Row>
+                        </Card>
+                    ))}
+                </div>
+            </div>
+            
 
-            {results.map(job => (
-                <Card className="mb-3 card" style={{ maxWidth: '540px' }} key={job.id}>
-                    <Row noGutters>
-                        <Col md={4}>
-                            <Image src={job.logo} className="card-img" alt={job.title} />
-                        </Col>
-                        <Col md={8}>
-                            <Card.Body>
-                                <Card.Subtitle className="mb-2 text-muted Company ">{job.company}</Card.Subtitle>
-                                <Card.Title className='Title'>{job.title}</Card.Title>
-                                <Card.Text>
-                                    <Button className='ButtonJob'>
-                                        <small className='text-muted job'>{job.type}</small>    
-                                    </Button>
-                                    <div>
-                                        <small className='text-muted'>{job.location}</small>
-                                        <small className='text-muted'>{job.posted}</small>
-                                    </div>
-                                </Card.Text>
-                            </Card.Body>
-                        </Col>
-                    </Row>
-                </Card>
-            ))}
+            
 
             
 
