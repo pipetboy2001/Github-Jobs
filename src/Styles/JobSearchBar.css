@@ -66,3 +66,12 @@
     width: 70px;
     height: 70px;
 }
+
+@media (max-width: 767px){
+    .background-img{
+        background-image: url(https://github.com/pipetboy2001/Github-Jobs/blob/main/src/Assest/backgroundImg.png?raw=true);
+        width: 200%;
+
+    }
+
+}

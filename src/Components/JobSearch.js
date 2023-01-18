@@ -3,7 +3,7 @@ import jobs from '../JSON/Data.json';
 import JobSearchBar from './JobSearchBar';
 import JobFilters from './JobFilters';
 import { Header } from '../Components/Header'
-import { Card, Row, Col, Image , Button } from 'react-bootstrap';
+import { Card, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
 import '../Styles/JobSearch.css'
