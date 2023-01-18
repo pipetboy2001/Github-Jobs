@@ -50,9 +50,11 @@ const JobSearch = () => {
                                         <Card.Subtitle className="mb-2 text-muted Company ">{job.company}</Card.Subtitle>
                                         <Card.Title className='Title'>{job.title}</Card.Title>
                                         <Card.Text>
-                                            <Button className='ButtonJob'>
-                                                <small className='text-muted job'>{job.type}</small>
-                                            </Button>
+                                            <div className='d-flex justify-content-between'>
+                                                <medium className='type'> {job.type} </medium>
+                                                <Link to={`/job/${job.id}`} className='btn btn-primary btn-sm'>View</Link>
+                                            </div>
+                                            <br/>
                                             <div>
                                                 <small className='text-muted'>{job.location}</small>
                                                 <small className='text-muted'>{job.posted}</small>

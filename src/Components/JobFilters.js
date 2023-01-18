@@ -18,6 +18,7 @@ const JobFilters = ({ setJobType, setLocation }) => {
 
     return (
         <div className="Filters ">
+            <h4>Filters:</h4>
             <div className="form-group">
                 <label>Job Type:</label>
                 <select className="form-control" name="jobType" value={jobType} onChange={handleChange}>

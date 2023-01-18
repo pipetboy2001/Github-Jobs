@@ -50,6 +50,13 @@
     margin: 0;
 }
 
+.type{
+    color: rgb(0, 15, 61);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
 /* Resposive */
 .job-filters {
     margin-top: -10px;
