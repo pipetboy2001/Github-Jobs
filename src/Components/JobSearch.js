@@ -3,7 +3,7 @@ import jobs from '../JSON/Data.json';
 import JobSearchBar from './JobSearchBar';
 import JobFilters from './JobFilters';
 import { Card, Row, Col, Image , Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 import '../Styles/JobSearch.css'
 
@@ -41,7 +41,7 @@ const JobSearch = () => {
                 <div>
                     {results.map(job => (
                         <Card className="mb-3 card" style={{ maxWidth: '540px' }} key={job.id}>
-                            <Row noGutters>
+                            <Row >
                                 <Col md={4}>
                                     <Image src={job.logo} className="card-img" alt={job.title} />
                                 </Col>
@@ -49,17 +49,19 @@ const JobSearch = () => {
                                     <Card.Body>
                                         <Card.Subtitle className="mb-2 text-muted Company ">{job.company}</Card.Subtitle>
                                         <Card.Title className='Title'>{job.title}</Card.Title>
-                                        <Card.Text>
+                                        <div>
                                             <div className='d-flex justify-content-between'>
-                                                <medium className='type'> {job.type} </medium>
-                                                <Link to={`/job/${job.id}`} className='btn btn-primary btn-sm'>View</Link>
+                                                <p className='type'> {job.type} </p>
+                                                
+                                                <NavLink to={`/job/${job.id}`} className='btn btn-primary btn-sm'>View</NavLink>
+                                                
                                             </div>
                                             <br/>
                                             <div>
                                                 <small className='text-muted'>{job.location}</small>
                                                 <small className='text-muted'>{job.posted}</small>
                                             </div>
-                                        </Card.Text>
+                                        </div>
                                     </Card.Body>
                                 </Col>
                             </Row>
