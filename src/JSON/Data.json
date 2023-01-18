@@ -10,7 +10,8 @@
             "logo": "https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
             "posted": "2022-12-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Google. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
-            "apply": "https://careers.google.com/jobs/results/1337"
+            "apply": "https://careers.google.com/jobs/results/1337",
+            "email": "softwareengineer@google.com"
         },
         {
             "id": 2,
@@ -22,7 +23,8 @@
             "logo": "https://www.facebook.com/images/fb_icon_325x325.png",
             "posted": "2022-11-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Facebook. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
-            "apply": "https://careers.facebook.com/jobs/results/1338"
+            "apply": "https://careers.facebook.com/jobs/results/1338",
+            "email": "datascientist@facebook.com"
         },
         {
             "id": 3,
@@ -34,7 +36,8 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png?20220213013322",
             "posted": "2022-11-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Amazon. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
-            "apply": "https://www.amazon.jobs/en/jobs/1339/software-engineer"
+            "apply": "https://www.amazon.jobs/en/jobs/1339/software-engineer",
+            "email": "softwareengineer@amazon.com"
         },
         {
             "id": 4,
@@ -46,7 +49,8 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/640px-Microsoft_logo_%282012%29.svg.png",
             "posted": "2022-10-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Microsoft. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
-            "apply": "https://careers.microsoft.com/us/en/job/1340/Data-Scientist"
+            "apply": "https://careers.microsoft.com/us/en/job/1340/Data-Scientist",
+            "email": "softwareengineer@microsoft.com"
         },
         {
             "id":5,
@@ -58,7 +62,8 @@
             "logo": "https://www.apple.com/ac/structured-data/images/open_graph_logo.png?201809210816",
             "posted": "2022-10-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Apple. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
-            "apply": "https://jobs.apple.com/en-us/details/1341/software-engineer"
+            "apply": "https://jobs.apple.com/en-us/details/1341/software-engineer",
+            "email": "softwareengineer@apple.com"
         },
         {
             "id":6,
@@ -70,7 +75,10 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
             "posted": "2022-09-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Netflix. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
-            "apply": "https://jobs.netflix.com/jobs/1342"
+            "apply": "https://jobs.netflix.com/jobs/1342",
+            "email": "softwareengineer@Netflix.com"
+
+
         },
         {
             "id":7,
@@ -82,7 +90,9 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tesla-cz-logo.svg/640px-Tesla-cz-logo.svg.png",
             "posted": "2022-09-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Tesla. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
-            "apply": "https://www.tesla.com/careers/search?location=1343"
+            "apply": "https://www.tesla.com/careers/search?location=1343",
+            "email": "datascientist@Tesla.com"
+
         },
         {
             "id":8,
@@ -94,7 +104,8 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Uber_logo_2018.png/640px-Uber_logo_2018.png",
             "posted": "2022-08-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Uber. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
-            "apply": "https://www.uber.com/us/en/careers/list/1344/"
+            "apply": "https://www.uber.com/us/en/careers/list/1344/",
+            "email": "datascientist@Tesla.com"
         },
         {
             "id":9,
@@ -106,7 +117,8 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/640px-Oracle_logo.svg.png",
             "posted": "2022-08-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Oracle. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
-            "apply": "https://www.oracle.com/corporate/careers/job-detail.html?jobid=1345"
+            "apply": "https://www.oracle.com/corporate/careers/job-detail.html?jobid=1345",
+            "email": "datascientist@Oracle.com"
         },
         {
             "id":10,
@@ -118,7 +130,9 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png",
             "posted": "2022-07-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Google. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
-            "apply": "https://careers.google.com/jobs/results/1346-data-scientist/"
+            "apply": "https://careers.google.com/jobs/results/1346-data-scientist/",
+            "email": "datascientist@Google.com"
+
         },
         {
             "id":11,
@@ -130,7 +144,9 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1200px-Facebook_icon.svg.png",
             "posted": "2022-07-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Facebook. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
-            "apply": "https://www.facebook.com/careers/jobs/a0I1I00000D1X1QUAV/"
+            "apply": "https://www.facebook.com/careers/jobs/a0I1I00000D1X1QUAV/",
+            "email": "datascientist@facebook.com"
+            
         },
         {
             "id":12,
@@ -142,7 +158,8 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1200px-Amazon_logo.svg.png",
             "posted": "2022-06-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Amazon. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
-            "apply": "https://www.amazon.jobs/en/jobs/1347/data-scientist"
+            "apply": "https://www.amazon.jobs/en/jobs/1347/data-scientist",
+            "email":"softwareengineer@amazon.com"
         },
         {
             "id":13,
@@ -154,7 +171,8 @@
             "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/1200px-Microsoft_logo.svg.png",
             "posted": "2022-06-01T12:00:00Z",   
             "description": "We are looking for a software engineer to join our team at Microsoft. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
-            "apply": "https://careers.microsoft.com/us/en/job/1348/Software-Engineer"
+            "apply": "https://careers.microsoft.com/us/en/job/1348/Software-Engineer",
+            "email": "datascientist@Microsoft.com"
         }
 
     ]
