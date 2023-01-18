@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import jobs from '../JSON/Data.json';
 import JobSearchBar from './JobSearchBar';
 import JobFilters from './JobFilters';
+import { Header } from '../Components/Header'
 import { Card, Row, Col, Image , Button } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 
@@ -30,6 +31,7 @@ const JobSearch = () => {
     
     return (
         <div>
+            <Header/>
             <JobSearchBar setSearchTerm={setSearchTerm} />
             
             

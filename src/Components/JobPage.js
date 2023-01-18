@@ -1,12 +1,55 @@
-import React from "react";
 import { useParams } from "react-router-dom";
-export default function JobPage() {
-    const { id } = useParams();
-    return (
-        <div>
-            <h1>Job Details</h1>
-            <p>Job ID: {id}</p>
+import { useState, useEffect } from 'react';
+import jobs from "../JSON/Data.json";
+import {Image ,Button} from 'react-bootstrap';
+import '../Styles/JobPage.css'
+import { Header } from '../Components/Header'
 
-        </div>
+export default function JobPage() {
+
+    const { id } = useParams();
+    const [job, setJob] = useState(null);
+
+    useEffect(() => {
+        const job = jobs.jobs.find((job) => job.id === Number(id));
+        setJob(job);
+
+    }, [id]);
+
+
+    return (
+        <>
+            <Header/>
+            <div className="d-flex"  >
+                {/* añadir un boton para regresar */}
+                <div className="HowToApply" style={{ width: "20rem" }}>
+                    <Button variant="primary" href="/">Back</Button>
+
+                    <h4>How to apply</h4>
+                    {job ? (
+                        // accede a la propiedad email
+                        <p>Please email a copy of your resume and online portafolio to {job.email}</p>
+                    ) : (
+                        <div>Job not found</div>
+                    )}
+                     </div>
+                
+
+                {job ? (
+                    <div className="Job" style={{ width: "50rem" }}>
+                        <div className="card-body">
+                            <h4 className="card-title">{job.title} <p className='type'>{job.type}</p> </h4>
+                            <Image src={job.logo} className="card-img" alt={job.title} />
+                            <h6 className="card-subtitle mb-2 text-muted">{job.company}</h6>
+                            <p className="card-text">{job.location}</p>
+                            <p className="card-text">{job.description}</p>
+                        </div>
+                    </div>
+                ) : (
+                    <div>Job not found</div>
+                )}
+            </div>
+        </>
     );
+
 }
