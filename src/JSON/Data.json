@@ -31,7 +31,7 @@
             "location": "Seattle, WA",
             "zipCode": "98101",
             "type": "full-time",
-            "logo": "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2020/PrimeDay/Gateway/US-EN_Hero_Desktop_Template_1500x600._CB432006202_.jpg",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/905px-Amazon_logo.svg.png?20220213013322",
             "posted": "2022-11-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Amazon. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
             "apply": "https://www.amazon.jobs/en/jobs/1339/software-engineer"
@@ -43,7 +43,7 @@
             "location": "Redmond, WA",
             "zipCode": "98052",
             "type": "full-time",
-            "logo": "https://www.microsoft.com/en-us/research/wp-content/uploads/2016/07/Microsoft_Research_logo_rgb_C-01-1.png",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/640px-Microsoft_logo_%282012%29.svg.png",
             "posted": "2022-10-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Microsoft. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
             "apply": "https://careers.microsoft.com/us/en/job/1340/Data-Scientist"
@@ -79,7 +79,7 @@
             "location": "Palo Alto, CA",
             "zipCode": "94301",
             "type": "internship",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/2/29/Tesla_Motors_logo.svg",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Tesla-cz-logo.svg/640px-Tesla-cz-logo.svg.png",
             "posted": "2022-09-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Tesla. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
             "apply": "https://www.tesla.com/careers/search?location=1343"
@@ -91,7 +91,7 @@
             "location": "San Francisco, CA",
             "zipCode": "94105",
             "type": "full-time",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Uber_2018_logo.svg/1200px-Uber_2018_logo.svg.png",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Uber_logo_2018.png/640px-Uber_logo_2018.png",
             "posted": "2022-08-15T12:00:00Z",
             "description": "We are seeking a data scientist to join our team at Uber. The ideal candidate will have experience in machine learning and statistical analysis, as well as experience working with large data sets.",
             "apply": "https://www.uber.com/us/en/careers/list/1344/"
@@ -103,7 +103,7 @@
             "location": "Redwood City, CA",
             "zipCode": "94065",
             "type": "internship",
-            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Oracle_logo_2011.svg/1200px-Oracle_logo_2011.svg.png",
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Oracle_logo.svg/640px-Oracle_logo.svg.png",
             "posted": "2022-08-01T12:00:00Z",
             "description": "We are looking for a software engineer to join our team at Oracle. The ideal candidate will have experience in Java and Python and be familiar with Agile development methodologies.",
             "apply": "https://www.oracle.com/corporate/careers/job-detail.html?jobid=1345"
