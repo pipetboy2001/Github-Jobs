@@ -2,10 +2,10 @@ import React, { useState, useEffect } from 'react';
 import jobs from '../JSON/Data.json';
 import JobSearchBar from './JobSearchBar';
 import JobFilters from './JobFilters';
+import RenderPageNumbers from './RenderPageNumbers'
 import { Header } from '../Components/Header'
 import { Card, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
-
 import '../Styles/JobSearch.css'
 
 const JobSearch = () => {
@@ -13,6 +13,13 @@ const JobSearch = () => {
     const [searchTerm, setSearchTerm] = useState('');
     const [location, setLocation] = useState('');
     const [jobType, setJobType] = useState('all');
+
+    const [currentPage, setCurrentPage] = useState(1);
+    const jobsPerPage = 5;
+    const indexOfLastJob = currentPage * jobsPerPage;
+    const indexOfFirstJob = indexOfLastJob - jobsPerPage;
+    const currentJobs = results.slice(indexOfFirstJob, indexOfLastJob);
+
 
     useEffect(() => {
         let filteredJobs = jobs.jobs;
@@ -28,20 +35,18 @@ const JobSearch = () => {
         }
         setResults(filteredJobs);
     }, [searchTerm, location, jobType]);
+
+    
     
     return (
         <div>
-            <Header/>
+            <Header />
             <JobSearchBar setSearchTerm={setSearchTerm} />
-            
-            
-            
             <div className="d-flex ">
-                
                 <JobFilters className='job-filters' setJobType={setJobType} setLocation={setLocation} />
-                <br/>
+                <br />
                 <div>
-                    {results.map(job => (
+                    {currentJobs.map(job => (
                         <Card className="mb-3 card" style={{ maxWidth: '540px' }} key={job.id}>
                             <Row >
                                 <Col md={4}>
@@ -54,11 +59,9 @@ const JobSearch = () => {
                                         <div>
                                             <div className='d-flex justify-content-between'>
                                                 <p className='type'> {job.type} </p>
-                                                
                                                 <NavLink to={`/job/${job.id}`} className='btn btn-primary btn-sm'>View</NavLink>
-                                                
                                             </div>
-                                            <br/>
+                                            <br />
                                             <div>
                                                 <small className='text-muted'>{job.location}</small>
                                                 <small className='text-muted'>{job.posted}</small>
@@ -71,14 +74,18 @@ const JobSearch = () => {
                     ))}
                 </div>
             </div>
-            
+            <div>
+                <RenderPageNumbers
+                    setCurrentPage={setCurrentPage}
+                    results={results}
+                    jobsPerPage={jobsPerPage}
+                    currentPage={currentPage}
+                />
 
-            
-
-            
-
+            </div>
         </div>
     );
+
 }
 
 export default JobSearch;
