@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../Styles/JobSearchBar.css'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
+import { BiSearchAlt } from "react-icons/bi";
 
 const JobSearchBar = ({ setSearchTerm }) => {
     const [searchTerm, setLocalSearchTerm] = useState('');
@@ -30,7 +31,7 @@ const JobSearchBar = ({ setSearchTerm }) => {
                                 onChange={e => setLocalSearchTerm(e.target.value)}
                             />
                         </Form.Group>
-                        <Button variant="primary" type="submit">Search</Button>
+                        <Button variant="primary" type="submit">Search <BiSearchAlt /></Button>
                     </Form>
                 </div>
             </div>

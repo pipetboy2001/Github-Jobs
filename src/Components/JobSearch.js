@@ -6,6 +6,7 @@ import RenderPageNumbers from './RenderPageNumbers'
 import { Header } from '../Components/Header'
 import { Card, Row, Col, Image } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
+import { AiOutlineEye } from "react-icons/ai";
 import '../Styles/JobSearch.css'
 
 const JobSearch = () => {
@@ -59,7 +60,7 @@ const JobSearch = () => {
                                         <div>
                                             <div className='d-flex justify-content-between'>
                                                 <p className='type'> {job.type} </p>
-                                                <NavLink to={`/job/${job.id}`} className='btn btn-primary btn-sm'>View</NavLink>
+                                                <NavLink to={`/job/${job.id}`} className='btn btn-primary btn-sm'>View <AiOutlineEye/></NavLink>
                                             </div>
                                             <br />
                                             <div>

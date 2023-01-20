@@ -1,5 +1,8 @@
 import React, { useState } from 'react';
 import '../Styles/JobFilters.css'
+import { BiLocationPlus } from "react-icons/bi";
+import { FiFilter } from "react-icons/fi";
+import { VscUngroupByRefType } from "react-icons/vsc";
 
 const JobFilters = ({ setJobType, setLocation }) => {
     const [jobType, setLocalJobType] = useState('all');
@@ -18,9 +21,9 @@ const JobFilters = ({ setJobType, setLocation }) => {
 
     return (
         <div className="Filters ">
-            <h4>Filters:</h4>
+            <h4><FiFilter/>Filters:</h4>
             <div className="form-group">
-                <label>Job Type:</label>
+                <label><VscUngroupByRefType/>Job Type:</label>
                 <select className="form-control" name="jobType" value={jobType} onChange={handleChange}>
                     <option value="all">All</option>
                     <option value="full-time">Full-time</option>
@@ -29,7 +32,7 @@ const JobFilters = ({ setJobType, setLocation }) => {
                 </select>
             </div>
             <div className="form-group">
-                <label>Location:</label>
+                <label><BiLocationPlus/>Location:</label>
                 <input className="form-control" name="location" type="text" value={location} onChange={handleChange} />
             </div>
         </div>

@@ -4,6 +4,8 @@ import jobs from "../JSON/Data.json";
 import {Image ,Button} from 'react-bootstrap';
 import '../Styles/JobPage.css'
 import { Header } from '../Components/Header'
+import { FaMedapps } from "react-icons/fa";
+import { ImBackward2 } from "react-icons/im";
 
 export default function JobPage() {
 
@@ -23,9 +25,9 @@ export default function JobPage() {
             <div className="d-flex"  >
                 {/* añadir un boton para regresar */}
                 <div className="HowToApply" style={{ width: "20rem" }}>
-                    <Button variant="primary" href="/">Back</Button>
+                    <Button variant="primary" href="/"><ImBackward2/> Back</Button>
 
-                    <h4>How to apply</h4>
+                    <h4>How to apply<FaMedapps/></h4>
                     {job ? (
                         // accede a la propiedad email
                         <p>Please email a copy of your resume and online portafolio to {job.email}</p>
